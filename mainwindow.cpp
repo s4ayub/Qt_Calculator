@@ -17,63 +17,63 @@ MainWindow::MainWindow(QWidget *parent) :
 
     equals_button = new QPushButton("=", this);
     equals_button -> setGeometry(QRect(QPoint(175,300), QSize(50,50)));
-    connect(equals_button, SIGNAL(released()), this, SLOT(equals())); //runs clear method when button is released
+    connect(equals_button, SIGNAL(released()), this, SLOT(equals())); 
 
     add_button = new QPushButton("+", this);
     add_button -> setGeometry(QRect(QPoint(225,150), QSize(50,50)));
-    connect(add_button, SIGNAL(released()), this, SLOT(add())); //runs clear method when button is released
+    connect(add_button, SIGNAL(released()), this, SLOT(add())); 
 
     sub_button = new QPushButton("-", this);
     sub_button -> setGeometry(QRect(QPoint(225,200), QSize(50,50)));
-    connect(sub_button, SIGNAL(released()), this, SLOT(sub())); //runs clear method when button is released
+    connect(sub_button, SIGNAL(released()), this, SLOT(sub())); 
 
     multiply_button = new QPushButton("X", this);
     multiply_button -> setGeometry(QRect(QPoint(225,250), QSize(50,50)));
-    connect(multiply_button, SIGNAL(released()), this, SLOT(multiply())); //runs clear method when button is released
+    connect(multiply_button, SIGNAL(released()), this, SLOT(multiply())); 
 
     divide_button = new QPushButton("/", this);
     divide_button -> setGeometry(QRect(QPoint(225,300), QSize(50,50)));
-    connect(divide_button, SIGNAL(released()), this, SLOT(divide())); //runs clear method when button is released
+    connect(divide_button, SIGNAL(released()), this, SLOT(divide())); 
 
     zero_button = new QPushButton("0", this);
     zero_button -> setGeometry(QRect(QPoint(75,300), QSize(50,50)));
-    connect(zero_button, SIGNAL(released()), this, SLOT(zero())); //runs clear method when button is released
+    connect(zero_button, SIGNAL(released()), this, SLOT(zero())); 
 
     one_button = new QPushButton("1", this);
     one_button -> setGeometry(QRect(QPoint(75,250), QSize(50,50)));
-    connect(one_button, SIGNAL(released()), this, SLOT(one())); //runs clear method when button is released
+    connect(one_button, SIGNAL(released()), this, SLOT(one())); 
 
     two_button = new QPushButton("2", this);
     two_button -> setGeometry(QRect(QPoint(125,250), QSize(50,50)));
-    connect(two_button, SIGNAL(released()), this, SLOT(two())); //runs clear method when button is released
+    connect(two_button, SIGNAL(released()), this, SLOT(two())); 
 
     three_button = new QPushButton("3", this);
     three_button -> setGeometry(QRect(QPoint(175,250), QSize(50,50)));
-    connect(three_button, SIGNAL(released()), this, SLOT(three())); //runs clear method when button is released
+    connect(three_button, SIGNAL(released()), this, SLOT(three())); 
 
     four_button = new QPushButton("4", this);
     four_button -> setGeometry(QRect(QPoint(75,200), QSize(50,50)));
-    connect(four_button, SIGNAL(released()), this, SLOT(four())); //runs clear method when button is released
+    connect(four_button, SIGNAL(released()), this, SLOT(four())); 
 
     five_button = new QPushButton("5", this);
     five_button -> setGeometry(QRect(QPoint(125,200), QSize(50,50)));
-    connect(five_button, SIGNAL(released()), this, SLOT(five())); //runs clear method when button is released
+    connect(five_button, SIGNAL(released()), this, SLOT(five())); 
 
     six_button = new QPushButton("6", this);
     six_button -> setGeometry(QRect(QPoint(175,200), QSize(50,50)));
-    connect(six_button, SIGNAL(released()), this, SLOT(six())); //runs clear method when button is released
+    connect(six_button, SIGNAL(released()), this, SLOT(six())); 
 
     seven_button = new QPushButton("7", this);
     seven_button -> setGeometry(QRect(QPoint(75,150), QSize(50,50)));
-    connect(seven_button, SIGNAL(released()), this, SLOT(seven())); //runs clear method when button is released
+    connect(seven_button, SIGNAL(released()), this, SLOT(seven()));
 
     eight_button = new QPushButton("8", this);
     eight_button -> setGeometry(QRect(QPoint(125,150), QSize(50,50)));
-    connect(eight_button, SIGNAL(released()), this, SLOT(eight())); //runs clear method when button is released
+    connect(eight_button, SIGNAL(released()), this, SLOT(eight())); 
 
     nine_button = new QPushButton("9", this);
     nine_button -> setGeometry(QRect(QPoint(175,150), QSize(50,50)));
-    connect(nine_button, SIGNAL(released()), this, SLOT(nine())); //runs clear method when button is released
+    connect(nine_button, SIGNAL(released()), this, SLOT(nine())); 
 
 }
 void MainWindow::clear(){
